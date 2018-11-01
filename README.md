@@ -5,6 +5,8 @@
 [appurl]: https://github.com/linuxserver/Heimdall
 [hub]: https://hub.docker.com/r/lsioarmhf/heimdall-aarch64/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/heimdall`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -86,6 +88,7 @@ This image now supports password protection through htpasswd. Run the following 
 
 ## Versions
 
++ **01.11.18:** This image is deprecated. Please use the multi-arch images at linuxserver/heimdall
 + **05.09.18:** Rebase to alpine linux 3.8.
 + **06.03.18:** Use password protection if htpasswd is set. 
 Existing users can delete their default site config at /config/nginx/site-confs/default 
